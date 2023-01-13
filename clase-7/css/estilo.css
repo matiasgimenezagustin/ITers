@@ -1,0 +1,110 @@
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.encabezado{
+    background-color: #fd611a;
+}
+.barra{
+    display: flex;/* row */
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.navegador{
+    background-color: #fd611a;
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+a{
+    color: black;
+
+}
+.busquedaContenedor{
+    position: relative;
+}
+.busquedaContenedor i {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    color: rgb(160, 157, 157);
+    font-size: 1.2rem;
+}
+.buscador{
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 7px;
+    border:none;
+    border: 1px rgb(224,224,224) solid;
+    width: 300px;
+}
+
+
+.carta{
+    box-shadow: 0px 2px 5px rgb(109, 109, 109);
+    padding: 16px;
+    width: 340px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    border-radius: 5px;
+}
+.carta img{
+    width: 120px;
+}
+.carta h3{
+    font-size: 0.7rem;
+}
+.carta p{
+    color: #4675b9;
+}
+
+.cartasContenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.seccionProductos{
+    margin: 10vh 5vw;
+}
+.novedades{
+    border-bottom: black 2px solid;
+}
+
+.irAlCarrito i{
+    font-size: 20px;
+}
+
+.irAlCarrito span{
+    background-color: rgb(245, 55, 55);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:-4px;
+    left: 9px;
+}
+.irAlCarrito{
+    position: relative;
+}

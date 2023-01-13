@@ -1,0 +1,29 @@
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.encabezado{
+    background-color: #fd611a;
+}
+.barra{
+    display: flex;/* row */
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navegador{
+    background-color: #fd611a;
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+a{
+    color: black;
+}

@@ -1,0 +1,37 @@
+.contenedor{
+    background-color: chartreuse;
+    min-height: 200vh;
+    display: flex;
+    margin-top: 400px;
+}
+
+.carta{
+    width: 300px;
+    height: 300px;
+}
+
+.uno{
+    background-color: brown;
+
+}
+.dos{
+    background-color: blue;
+
+/*     position:sticky;
+    top: 200px;
+    left: 400px;
+ */
+    /* position: absolute;
+    top: 200px;
+    left: 400px; */
+
+    /* position: relative;
+    top: 200px;
+    left: 400px;  */
+    /* position: fixed;
+    top: 200px;
+    left: 400px; */
+}
+.tres{
+    background-color: crimson;
+}
